@@ -2,6 +2,8 @@
 
 [node name="ExpositionLabel" type="Label"]
 
+rect/rotation = -15.0
+rect/scale = Vector2( 3, 3 )
 focus/ignore_mouse = true
 focus/stop_mouse = true
 size_flags/horizontal = 2
@@ -10,7 +12,10 @@ margin/left = 63.0
 margin/top = 0.0
 margin/right = 334.0
 margin/bottom = 75.0
+custom_colors/font_color = Color( 0.589844, 0.0276489, 0.0276489, 1 )
 text = "This Is a Game!"
+align = 1
+valign = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
