@@ -2,16 +2,20 @@
 
 [node name="ExpositionLabel" type="Label"]
 
+anchor/left = 3
+anchor/top = 3
+anchor/right = 3
+anchor/bottom = 3
 rect/rotation = -15.0
 rect/scale = Vector2( 3, 3 )
 focus/ignore_mouse = true
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 0
-margin/left = 63.0
-margin/top = 0.0
-margin/right = 334.0
-margin/bottom = 75.0
+margin/left = 385.0
+margin/top = 246.0
+margin/right = 114.0
+margin/bottom = 171.0
 custom_colors/font_color = Color( 0.589844, 0.0276489, 0.0276489, 1 )
 text = "This Is a Game!"
 align = 1
@@ -19,5 +23,24 @@ valign = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+
+[node name="TextEdit" type="TextEdit" parent="."]
+
+rect/min_size = Vector2( 100, 25 )
+rect/rotation = 15.0
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 172.0
+margin/top = 88.0
+margin/right = 272.0
+margin/bottom = 113.0
+syntax_highlighting = false
+show_line_numbers = false
+highlight_all_occurrences = false
+caret/block_caret = false
+caret/caret_blink = false
+caret/caret_blink_speed = 0.65
 
 

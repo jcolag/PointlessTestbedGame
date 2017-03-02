@@ -1,0 +1,9 @@
+[gd_resource type="CapsuleShape2D" format=1]
+
+[resource]
+
+resource/name = "Capsule"
+custom_solver_bias = 0.0
+radius = 10.0
+height = 20.0
+
