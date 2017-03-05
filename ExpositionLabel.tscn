@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=1]
+[gd_scene load_steps=3 format=1]
 
 [sub_resource type="GDScript" id=1]
+
+script/source = "extends Label\n\n# class member variables go here, for example:\n# var a = 2\n# var b = \"textvar\"\n\nfunc _ready():\n\t# Called every time the node is added to the scene.\n\t# Initialization here\n\tpass\n"
+
+[sub_resource type="GDScript" id=2]
 
 script/source = "# Documentation for GDScript at http://docs.godotengine.org/en/stable/reference/gdscript.html\n\n"
 
@@ -27,6 +31,7 @@ valign = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+script/script = SubResource( 1 )
 
 [node name="TextEdit" type="TextEdit" parent="."]
 
@@ -46,6 +51,6 @@ highlight_all_occurrences = false
 caret/block_caret = false
 caret/caret_blink = false
 caret/caret_blink_speed = 0.65
-script/script = SubResource( 1 )
+script/script = SubResource( 2 )
 
 
